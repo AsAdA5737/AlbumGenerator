@@ -24,6 +24,6 @@ begin
   print "<a href='index.rb'>back</a>";
   
 rescue => ex
-  print "Error Occured<br>";
+  print "Error Occurred<br>";
   print ex.message + "<br>";
 end
